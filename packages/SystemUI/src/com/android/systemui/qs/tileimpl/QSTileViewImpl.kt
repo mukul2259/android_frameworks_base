@@ -483,7 +483,7 @@ open class QSTileViewImpl @JvmOverloads constructor(
         } else if (state !is BooleanState || state.forceExpandIcon) {
             customDrawableView.setImageDrawable(null)
             customDrawableView.visibility = GONE
-            chevronView.visibility = VISIBLE
+            chevronView.visibility = GONE
         } else {
             customDrawableView.setImageDrawable(null)
             customDrawableView.visibility = GONE

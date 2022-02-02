@@ -153,8 +153,7 @@ public class TileLayout extends ViewGroup implements QSTileLayout {
             mRows = (numTiles + mColumns - 1) / mColumns;
         }
         final int gaps = mColumns - 1;
-        mCellWidth =
-                (availableWidth - (mCellMarginHorizontal * gaps) - mSidePadding * 2) / mColumns;
+        mCellWidth = res.getDimensionPixelSize(R.dimen.qs_quick_tile_size);
 
         // Measure each QS tile.
         View previousView = this;

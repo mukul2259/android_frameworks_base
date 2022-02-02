@@ -547,7 +547,7 @@
     <dimen name="pull_span_min">25dp</dimen>
 
     <dimen name="qs_corner_radius">28dp</dimen>
-    <dimen name="qs_tile_height">84dp</dimen>
+    <dimen name="qs_tile_height">50dp</dimen>
     <!--notification_side_paddings + notification_content_margin_start - (qs_quick_tile_size - qs_tile_background_size) / 2 -->
     <dimen name="qs_tile_layout_margin_side">18dp</dimen>
     <dimen name="qs_tile_margin_horizontal">8dp</dimen>
@@ -565,13 +565,13 @@
     <dimen name="qs_customize_internal_side_paddings">8dp</dimen>
     <dimen name="qs_tile_icon_background_stroke_width">-1dp</dimen>
     <dimen name="qs_tile_background_size">56dp</dimen>
-    <dimen name="qs_icon_size">20dp</dimen>
+    <dimen name="qs_icon_size">19dp</dimen>
     <dimen name="qs_side_view_size">28dp</dimen>
     <dimen name="qs_label_container_margin">10dp</dimen>
-    <dimen name="qs_quick_tile_size">60dp</dimen>
+    <dimen name="qs_quick_tile_size">50dp</dimen>
     <dimen name="qs_tile_padding">12dp</dimen>
     <dimen name="qs_tile_start_padding">16dp</dimen>
-    <dimen name="qs_drawable_end_margin">4dp</dimen>
+    <dimen name="qs_drawable_end_margin">0dp</dimen>
     <dimen name="qs_header_gear_translation">16dp</dimen>
     <dimen name="qs_header_tile_margin_bottom">18dp</dimen>
     <dimen name="qs_page_indicator_width">16dp</dimen>
